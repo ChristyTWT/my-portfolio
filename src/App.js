@@ -6,13 +6,12 @@ import Contact from './components/contact/Contact'
 import Projects from "./components/projects/Projects";
 import Skills from "./components/skills/Skills";
 import Menubar from "./components/menubar/Menubar";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
     <div>
       <Menubar />
-      <Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -20,7 +19,6 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </Router>
     </div>
   )
 }
