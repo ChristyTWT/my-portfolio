@@ -1,7 +1,11 @@
+$color-selected: #ffdd00;
+$color-menubar: white;
+
 .nav-bar {
     display: flex;
     justify-content: space-between;
     height: 44px;
+    background-color: black;
 
     .logo {
         display: flex;
@@ -18,11 +22,19 @@
         min-width: 250px;
         margin: 0 20px;
         padding: 0 30px;
+
+        a.active {
+            color: $color-selected;
+            font-weight: bold;
+        }
     }
 
-    a{
-        color: #000;
+    a {
+        color: $color-menubar;
         text-decoration: none;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
     }
 
 }
@@ -38,12 +50,15 @@
         justify-content: space-between;
         height: auto;
         min-height: auto;
+        background-color: black;
+        padding: 10px 0;
+        // background: transparent;
 
     .logo {
         display: flex;
         min-width: 250px;
         align-self: center;
-        padding: 0 10px;
+        padding-bottom: 30px;
     }
 
     nav {
@@ -60,18 +75,23 @@
     }
 
     a{
-        color: #000;
+        color: white;
         text-decoration: none;
         min-height: 40px;
+        font-weight: bold;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
     }
 
-     .hamburger-icon,
-     .close-icon {
+    .hamburger-icon,
+    .close-icon {
         // position: initial;
         top: 15px;
         right: 15px;
         display: block;
         padding: 10px;
+        cursor: pointer;
      }
   }
 }

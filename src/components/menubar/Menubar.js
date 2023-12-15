@@ -36,7 +36,6 @@ const Menubar = () => {
       <nav className={showNav ? 'nav-show' : ''}>
         <NavLink
           exact="true"
-          className="nav-item"
           to="/about"
           onClick={() => setShowNav(false)}
         >
@@ -44,7 +43,6 @@ const Menubar = () => {
         </NavLink>
         <NavLink
           exact="true"
-          className="nav-item"
           to="/projects"
           onClick={() => setShowNav(false)}
         >
@@ -52,7 +50,6 @@ const Menubar = () => {
         </NavLink>
         <NavLink
           exact="true"
-          className="nav-item"
           to="/skills"
           onClick={() => setShowNav(false)}
         >
@@ -60,7 +57,6 @@ const Menubar = () => {
         </NavLink>
         <NavLink
           exact="true"
-          className="nav-item"
           to="/contact"
           onClick={() => setShowNav(false)}
         >
