@@ -1,7 +1,6 @@
-$primary-color: #ffd700;
-
 @import 'animate.css';
 @import '~loaders.css/src/animations/pacman.scss';
+@import "utilities/variables.scss";
 
 @font-face {
   font-family: 'Helvetica Neue';
@@ -10,10 +9,20 @@ $primary-color: #ffd700;
   font-style: normal;
 }
 
-
+a,
+div,
 input,
+label,
 textarea {
   font-family: 'Helvetica Neue', sans-serif;
+  color: $color-content-text;
+  letter-spacing: 1px;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 // .loader-hidden {

@@ -1,0 +1,22 @@
+$color-theme: #ffdd00;
+$color-theme-normal: #686352;
+
+// Menubar Color
+$color-menubar-text: $color-theme-normal;
+$color-menubar-bg: transparent;
+$color-menubar-selected: $color-theme;
+
+// Content Color
+$color-header-text: $color-theme;
+$color-content-text: $color-theme-normal;
+$color-content-bg: 50% $color-theme-normal;
+
+// Button Color
+$color-btn-border: $color-theme;
+$color-btn-bg: white;
+$color-btn-text: $color-theme;
+$color-btn-hover-bg: $color-theme;
+$color-btn-hover-text: $color-theme-normal;
+
+// Input Color
+$color-input-border: $color-theme-normal;
