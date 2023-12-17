@@ -25,8 +25,8 @@ const Home = () => {
   ]
   return (
     <div className="container home-page">
-      <div className="text-zone">
-        <div className='text-heading'>
+      <div className="home-margin text-zone">
+        <div className="text-heading">
           <span className={letterClass}>H</span>
           <span className={`${letterClass} _12`}>i,</span>
           <br />
@@ -44,7 +44,7 @@ const Home = () => {
             idx={22}
           />
         </div>
-        <div className='text-content'>Full-stack Web Developer</div>
+        <div className="text-content text-fadeIn">Full-stack Web Developer</div>
         <Link to="/contact" className="flat-button">
           CONTACT ME
         </Link>
