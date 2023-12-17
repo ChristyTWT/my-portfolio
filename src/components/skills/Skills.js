@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <div className="container">
       <div className="container-skills content-margin">
-        <div className="skills-heading">
+        <div className="content-heading">
           <div className="text-heading">My Skills</div>
           <div className="text-content">
             I Love to Craft Beautiful and Scaleable Web Product

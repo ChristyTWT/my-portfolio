@@ -1,15 +1,15 @@
 @import "../utilities/variables.scss";
 
+.content-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
 .container-skills {
   display: flex;
   flex-direction: column;
-
-  .skills-heading {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 5%;
-  }
 
   .skills-content{
     display: flex;
