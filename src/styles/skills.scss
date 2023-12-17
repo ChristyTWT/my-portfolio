@@ -1,1 +1,77 @@
 @import "../utilities/variables.scss";
+
+.container-skills {
+  display: flex;
+  flex-direction: column;
+
+  .skills-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+  }
+
+  .skills-content{
+    display: flex;
+
+    .skills-description {
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      margin-right: 10%;
+
+      .text-content {
+        margin-top: 0;
+        margin-bottom: 5%;
+      }
+    }
+
+    .skills-list {
+      display: flex;
+      align-items: center;
+      width: 50%;
+      background-color: $color-content-bg;
+      border-radius: 4px;
+
+      .skills-name-list {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        height: 100%;
+        width: 20%;
+        padding: 5% 0 5% 5%;
+
+        .skills-name-item {
+          display: flex;
+          flex-wrap: wrap;
+          justify-self: center;
+          height: 30px;
+          line-height: 30px;
+          margin: 10px 5% 10px 0;
+        }
+      }
+
+      .skills-list-content {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+
+        .progress {
+          height: 30px;
+          border-radius: 4px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          background-color: white;
+        }
+
+        .progress-bar {
+          height: 100%;
+          text-align: right;
+          font-size: 13px;
+          line-height: 30px;
+          background-color: $color-content-fill;
+        }
+      }
+    }
+  }
+}

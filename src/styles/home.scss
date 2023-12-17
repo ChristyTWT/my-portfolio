@@ -26,12 +26,21 @@
   font-size: 11px;
   font-family: sans-serif;
   letter-spacing: 3px;
+}
+
+.text-fadeIn {
   animation: fadeIn 1s 1.8s backwards;
-  }
+}
+
+.content-margin {
+  margin: 7% 10% 0 10%;
+}
+
+.home-margin {
+  margin: 10% 10% 0 10%;
+}
 
 .text-zone {
-  padding-top: 10%;
-  padding-left: 10%;
 
   .flat-button {
     

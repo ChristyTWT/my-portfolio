@@ -13,6 +13,7 @@
     "animate.css": "^4.1.1",
     "loaders.css": "^0.1.2",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.9.1",
     "react-dom": "^18.2.0",
     "react-loaders": "^3.0.1",
     "react-router-dom": "^6.2.2",
