@@ -30,4 +30,4 @@ This was a website built to showcase my technical skills, web design skills.
 Project Link: https://github.com/your_username_/Project-Name.git
 
 ## Acknowledgments
-[Font Awesome] (https://fontawesome.com/)
+[Font Awesome](https://fontawesome.com/)
