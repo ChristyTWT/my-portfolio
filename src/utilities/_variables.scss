@@ -1,26 +1,8 @@
-$color-theme: #ffcc00;
-$color-theme-30: #ffcc0086;
-$color-theme-normal: #686352;
-$color-theme-normal-30: #d1d1d138;
+$color-theme-orange: #ffcc00;
+$color-theme-orange-bg: #ffcc0086;
+$color-theme-brown: #686352;
+$color-theme-brown-bg: #d1d1d138;
 
-// Menubar Color
-$color-menubar-text: $color-theme-normal;
-$color-menubar-bg: transparent;
-$color-menubar-selected: $color-theme;
-
-// Content Color
-$color-header-text: $color-theme;
-$color-content-text: $color-theme-normal;
-
-$color-content-bg: $color-theme-normal-30;
-$color-content-fill: $color-theme-30;
-
-// Button Color
-$color-btn-border: $color-theme;
-$color-btn-bg: white;
-$color-btn-text: $color-theme;
-$color-btn-hover-bg: $color-theme;
-$color-btn-hover-text: $color-theme-normal;
 
 // Input Color
-$color-input-border: $color-theme-normal;
+$color-input-border: $color-theme-brown;
