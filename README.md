@@ -17,13 +17,13 @@ This was a website built to showcase my technical skills, web design skills.
 
 ##  Getting Started
 1. Clone the repo
-### `git clone https://github.com/your_username_/Project-Name.git`
+  ### `git clone https://github.com/your_username_/Project-Name.git`
 
 2. Install NPM packages
-### `npm install`
+  ### `npm install`
 
 3. Start Project
-### `npm start`
+  ### `npm start`
 
 
 ## Contact
