@@ -2,7 +2,7 @@
 
 .container-contact {
   display: flex;
-  flex-flow: row;
+  flex-direction: row;
 
   .content {
     display: flex;
@@ -17,12 +17,8 @@
   form {
     display: flex;
     flex-flow: column;
-    width: 50%;
-
-    h3 {
-      margin-bottom: 10%;
-    }
-
+    width: 40%;
+  
     label {
       margin-top: 2%;
     }
@@ -46,4 +42,41 @@
       cursor: pointer;
     }
   }
+}
+
+
+@media screen and (max-width: $value-mobile-width) {
+  .container-contact {
+    display: flex;
+    flex-direction: column;
+
+    .content {
+
+      .text-heading {
+        line-height: 65px;
+      }
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 30px;
+
+      .text-subheading {
+        width: 100%;
+      }
+
+      input,
+      textarea {
+        width: 80%;
+      }
+
+      label {
+        margin-top: 2%;
+      }
+
+    }
+  }
+
 }

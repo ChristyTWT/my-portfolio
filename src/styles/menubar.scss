@@ -42,7 +42,7 @@
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: $value-mobile-width) {
   .nav-bar {
     display: flex;
     flex-wrap: wrap;
