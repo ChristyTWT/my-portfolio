@@ -1,14 +1,13 @@
-import "../../styles/projects.scss";
+import * as Constants from '../../utilities/Constants'
+import '../../styles/projects.scss'
 
 const Projects = () => {
   return (
     <div className="container">
       <div className="container-projects content-margin">
         <div className="content-heading">
-          <div className="text-heading">My Projects</div>
-          <div className="text-content">
-            I Love to Craft Beautiful and Scaleable Web Product
-          </div>
+          <div className="text-heading">{Constants.PROJECTS_HEADING}</div>
+          <div className="text-content">{Constants.PROJECTS_CONTENT}</div>
         </div>
         <div className="projects-content">
           <div className="projects-list">
@@ -22,6 +21,6 @@ const Projects = () => {
       </div>
     </div>
   )
-};
+}
 
-export default Projects;
+export default Projects
